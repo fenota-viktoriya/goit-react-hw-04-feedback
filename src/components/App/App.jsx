@@ -25,7 +25,6 @@ export function App() {
   }, [contacts]);
 
   const addContact = (name, number) => {
-    console.log(name, number);
     const baseContact = {
       id: nanoid(),
       name,
